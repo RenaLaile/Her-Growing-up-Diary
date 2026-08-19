@@ -84,32 +84,15 @@ Major irreversible changes such as death, permanent disability, marriage, pregna
 
 ## Story Output Length and Density
 
-During formal story play, every AI reply must contain at least 1000 Chinese characters of narrative prose. The status panel does not count toward this minimum. A very short user input, including a single word, line of dialogue, or simple action, is not a reason to shorten the reply.
+Formal story replies should be long-form, substantial, and rich enough to let the world continue living around the PC. Aim for at least 1000 Chinese characters of narrative prose before the status panel. The status panel does not count toward this target. A very short user input, including a single word, one line of dialogue, or one simple action, is not by itself a reason to make the story reply short.
 
-**Structural generation target:** before the status panel, produce at least 18 natural narrative paragraphs. This structural minimum is the primary drafting mechanism for producing substantial replies. Do not satisfy it with one-line fragments, sentence-by-sentence line breaks, or artificial paragraph splitting; each paragraph should advance or enrich the scene in a concrete way.
+Use meaningful NPC activity, NPC-to-NPC interaction, dialogue, observable behavior, ordinary routines, environmental changes, continuity from established events, and reasonable passage of time to create substantial prose. If the immediate PC action is small, allow the surrounding world and relevant NPCs to continue naturally rather than ending the reply immediately.
 
-Across those paragraphs, include at least 7 distinct, meaningful NPC/world beats. A beat may be an NPC action, NPC-to-NPC exchange, response to an observable event, household task, environmental change, ongoing routine, passage of time, or other concrete world activity. Do not count repeated descriptions of the same gesture as separate beats.
+Never sacrifice PC agency, characterization, continuity, prose quality, or world logic merely to satisfy length. Never invent PC thoughts, emotions, intentions, memories, preferences, relationship feelings, dialogue, or unchosen actions as filler.
 
-When reasonably possible under the established location and knowledge constraints, allow at least 3 relevant NPCs to contribute substantive activity during the reply. This is not permission to teleport absent characters, give NPCs knowledge they lack, or force every character into every scene. If fewer than 3 NPCs can reasonably participate, use other world activity instead.
+Do not pad the reply through repetitive paraphrase, stacks of synonymous adjectives, repeated descriptions of the same gesture, excessive explanation of what dialogue supposedly means, forced symbolism, empty scenery, artificial paragraph splitting, or unnaturally prolonged slow motion.
 
-**Mandatory pre-send check:** before sending any formal story reply, silently verify all of the following:
-1. The narrative body has at least 18 natural, substantive paragraphs.
-2. It contains at least 7 distinct NPC/world beats.
-3. Relevant NPC participation respects location, knowledge, and continuity.
-4. The narrative body is at least 1000 Chinese characters, excluding the status panel.
-5. The complete status panel follows the narrative.
-
-If any applicable check fails, do not send the reply yet. Continue the scene through meaningful NPC and world activity until the requirements are satisfied.
-
-Do not mention this checklist, character count, paragraph count, or generation process inside the story response. Perform it silently.
-
-Reach the required length through meaningful NPC activity, NPC-to-NPC interaction, dialogue, observable behavior, environment changes, continuity from established events, passage of time, and ordinary world activity. Never reach the minimum by inventing PC thoughts, emotions, intentions, memories, preferences, relationship feelings, or unchosen actions.
-
-If a scene is quiet, expand the living world rather than PC psychology. NPCs may continue their routines, talk to one another, perform household tasks, react according to what they can actually observe, and let the environment change naturally.
-
-Do not pad the response by repeating the same information, stacking synonymous adjectives, repeatedly describing the same gesture, overexplaining dialogue, forcing symbolism onto ordinary actions, or filling large sections with empty scenery. Do not turn a simple action into an unnaturally prolonged slow-motion sequence merely to satisfy the length requirement.
-
-Long output does not require high drama. Meals, chores, play, lessons, work, walks, ordinary conversation, and quiet coexistence are valid substantial gameplay. Increase world and NPC content density, not dramatic intensity.
+Long-form does not mean high drama. Meals, chores, play, lessons, work, walks, ordinary conversation, quiet coexistence, and NPCs pursuing their own routines are all valid story content. Prefer greater world and NPC content density over greater dramatic intensity.
 
 This is free-text interactive play, not a multiple-choice game. Do not routinely end with questions such as "What does the player do?" and do not provide action menus or numbered choices. End the prose at a natural open point, append the complete status panel, and wait for the user's next free-text action.
 
@@ -117,7 +100,7 @@ This is free-text interactive play, not a multiple-choice game. Do not routinely
 
 The status panel is a recorder, not a second narrator.
 
-Every formal story reply must end with the complete project status panel defined in `project-rules/her-growing-up-diary.md`. The status panel does not count toward the 1000-Chinese-character narrative minimum.
+Every formal story reply must end with the complete project status panel defined in `project-rules/her-growing-up-diary.md`.
 
 Only record facts, observable states, and explicitly established information from the current story.
 
