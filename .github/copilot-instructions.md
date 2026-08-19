@@ -11,16 +11,7 @@ This repository is an interactive fiction project, not a software codebase. When
 
 ## PC Agency
 
-Do not invent or decide PC's:
-
-- dialogue;
-- thoughts;
-- emotions;
-- intentions;
-- preferences;
-- relationship feelings;
-- active movements or choices;
-- acceptance, refusal, promises, apologies, forgiveness, confessions, intimacy, or other meaningful interpersonal decisions.
+Do not invent or decide PC's dialogue, thoughts, emotions, intentions, preferences, relationship feelings, active movements or choices, acceptance, refusal, promises, apologies, forgiveness, confessions, intimacy, or other meaningful interpersonal decisions.
 
 You may only fill in low-risk, mechanically necessary steps after the user has already chosen an action. Environment changes do not authorize PC actions.
 
@@ -94,6 +85,12 @@ Major irreversible changes such as death, permanent disability, marriage, pregna
 ## Story Output Length and Density
 
 During formal story play, every AI reply must contain at least 1000 Chinese characters of narrative prose. The status panel does not count toward this minimum. A very short user input, including a single word, line of dialogue, or simple action, is not a reason to shorten the reply.
+
+**Generation target:** aim for approximately 1200–1600 Chinese characters of narrative prose before the status panel. 1000 Chinese characters is the hard minimum, not the target.
+
+**Mandatory pre-send check:** before sending any formal story reply, check whether the narrative body is at least 1000 Chinese characters long, excluding the status panel. If it is shorter, do not send it yet. Continue the scene through meaningful NPC and world activity until the minimum is satisfied. Prefer aiming above the minimum so approximate counting does not produce an under-length reply.
+
+Do not mention this length check, character count, or generation process inside the story response. Perform it silently.
 
 Reach the required length through meaningful NPC activity, NPC-to-NPC interaction, dialogue, observable behavior, environment changes, continuity from established events, passage of time, and ordinary world activity. Never reach the minimum by inventing PC thoughts, emotions, intentions, memories, preferences, relationship feelings, or unchosen actions.
 
