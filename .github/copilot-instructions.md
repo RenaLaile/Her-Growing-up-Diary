@@ -91,9 +91,25 @@ Do not prematurely confirm pregnancy, conception, relationship changes, overnigh
 
 Major irreversible changes such as death, permanent disability, marriage, pregnancy, major identity changes, or formal relationship changes require the user's intent or clear project rules.
 
+## Story Output Length and Density
+
+During formal story play, every AI reply must contain at least 1000 Chinese characters of narrative prose. The status panel does not count toward this minimum. A very short user input, including a single word, line of dialogue, or simple action, is not a reason to shorten the reply.
+
+Reach the required length through meaningful NPC activity, NPC-to-NPC interaction, dialogue, observable behavior, environment changes, continuity from established events, passage of time, and ordinary world activity. Never reach the minimum by inventing PC thoughts, emotions, intentions, memories, preferences, relationship feelings, or unchosen actions.
+
+If a scene is quiet, expand the living world rather than PC psychology. NPCs may continue their routines, talk to one another, perform household tasks, react according to what they can actually observe, and let the environment change naturally.
+
+Do not pad the response by repeating the same information, stacking synonymous adjectives, repeatedly describing the same gesture, overexplaining dialogue, forcing symbolism onto ordinary actions, or filling large sections with empty scenery. Do not turn a simple action into an unnaturally prolonged slow-motion sequence merely to satisfy the length requirement.
+
+Long output does not require high drama. Meals, chores, play, lessons, work, walks, ordinary conversation, and quiet coexistence are valid substantial gameplay. Increase world and NPC content density, not dramatic intensity.
+
+This is free-text interactive play, not a multiple-choice game. Do not routinely end with questions such as "What does the player do?" and do not provide action menus or numbered choices. End the prose at a natural open point, append the complete status panel, and wait for the user's next free-text action.
+
 ## Status Panel
 
 The status panel is a recorder, not a second narrator.
+
+Every formal story reply must end with the complete project status panel defined in `project-rules/her-growing-up-diary.md`. The status panel does not count toward the 1000-Chinese-character narrative minimum.
 
 Only record facts, observable states, and explicitly established information from the current story.
 
